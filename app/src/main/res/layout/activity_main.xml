@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/rootRelative"
+
+    >
+
+    <TextView
+        android:id="@+id/firstBox"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/black"
+               />
+
+    <TextView
+        android:id="@+id/secondBox"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorDarkGreen"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+
+        />
+    <TextView
+        android:id="@+id/thirdBox"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorCyan"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+<Button
+    android:id="@+id/changeColor"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="change color"
+    android:layout_centerInParent="true"
+    android:layout_marginLeft="100dp"
+    />
+
+</RelativeLayout>
